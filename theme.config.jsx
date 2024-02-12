@@ -4,7 +4,7 @@ export default {
       link: 'https://github.com/MINT-EC-KI-Cluster',
 
     },
-    docsRepositoryBase: 'https://github.com/MINT-EC-KI-Cluster/platform',
+    docsRepositoryBase: 'https://github.com/MINT-EC-KI-Cluster/platform/tree/main/',
 
     search: {
         placeholder: 'Suche',
