@@ -1,3 +1,5 @@
 {
-    "index": "Start"
+    "index": "Start",
+    "SLP-Test": "Perzeptron",
+    "snake-rl": "Snake KI"
 }
