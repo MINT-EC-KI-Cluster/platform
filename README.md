@@ -1,15 +1,16 @@
-# platform
+# Platform
+
+Don't edit docs for individual projects here. Add a commit for your changes in the corresponding repository!
 
 To install dependencies:
 
 ```bash
-bun install
+bun/npm install
 ```
 
 To run:
 
 ```bash
-bun run index.ts
+bun/node run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.5. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
