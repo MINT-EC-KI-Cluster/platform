@@ -1,5 +1,7 @@
 {
     "index": "Start",
     "SLP-Test": "Perzeptron",
-    "snake-rl": "Snake KI"
+    "snake-rl": "Snake KI",
+    "CNN-for-ASL-digits": "CNN für ASL-Zahlen",
+    "explorables": "Explorables"
 }

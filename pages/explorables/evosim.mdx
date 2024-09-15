@@ -1,0 +1,33 @@
+import { Card } from 'nextra/components'
+
+# Evolutions Simulation
+
+<iframe src="https://ekes.tim-arnold.de/inline" width="100%" style={{aspectRatio: 1.5}} frameBorder="0" />
+
+<div className={"mt-4"}/>
+<Card title={"Launch Full-Simulation"} href={"https://ekes.tim-arnold.de"} arrow={true}/>
+<div className={"mt-2"}/>
+
+## Genetisches Lernen anhand einer Evolutions Simulation
+Viele Beispiele des maschinellen Lernens basieren auf dem Prinzip des Lernens durch Beispiele. Dabei wird ein neuronales
+Netz solange angepasst bis es die gewünschte Ausgabe für eine gegebene Eingabe liefert.
+Ein anderes Prinzip ist das genetische Lernen, welches auf der Evolutionstheorie basiert. In diesem Exploarable schauen wir
+uns an, wie es möglich ist, eine KI zu trainieren, ohne genau zu wissen, welches das eigentliche Ziel ist.
+
+## Ausgangslage
+In einer virtuellen Welt gibt es eine Population von Kreaturen, die sich durch eine Welt bewegen können. Jede Kreatur hat
+ein eigenes neuronales Netz, welches ihr Verhalten steuert. Zunächst werden die Kreaturen und deren neuronale Netze zufällig
+erzeugt. Das geschieht solange, bis sich über 100 Kreaturen in der Welt befinden.
+
+## Evolution
+In jedem Berechnungsschritt wird die Welt aktualisiert. Es wird neue Nahrung erzeugt und das neuronale Netz jeder Kreatur
+wird mit den aktuellen Eingaben, wie z.B. ihrer aktuellen Energie berechnet. Die Ausgaben des neuronalen Netzes bestimmen
+dann unter anderem die Bewegung und die Rotation der Kreatur. Mithilfe des KI hat die Kreatur auch die Möglichkeit sich
+fortzupflanzen. Dabei wird das neuronale Netz der Eltern-Kreatur vererbt und zufällig mutiert. Das kostet die Kreatur
+allerdings, wie jede andere Aktion auch, Energie. Daher ist es zum Schluss eine Frage, welche Kreatur den besten Kompromiss
+findet und daher am längsten überlebt bzw. sein "Erbgut" am besten weitergibt.
+
+
+
+
+
